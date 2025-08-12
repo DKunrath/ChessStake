@@ -1,0 +1,4 @@
+# Para corrigir o erro de slug dinâmico duplicado:
+# 1. Remova a pasta /app/game/[id] (e seu page.tsx)
+# 2. Mantenha apenas /app/game/[roomId]/page.tsx
+# 3. Garanta que todos os imports e navegações usem [roomId] como slug.
